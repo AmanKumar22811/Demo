@@ -9,4 +9,9 @@ public class Controller {
 	public String controller1() {
 		return "Hello from controller1";
 	}
+    @GetMapping("/controller2")
+    public String controller2(){
+        return "Hello from controller2";
+    }
+	
 }
