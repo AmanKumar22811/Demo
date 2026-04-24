@@ -17,5 +17,10 @@ public class Controller {
 	public String controller3() {
 		return "Hello from controller3";
 	}
+    
+   @GetMapping("/disha")
+   public String disha() {
+	   return "Hello from Disha";
+   }
 	
 }
