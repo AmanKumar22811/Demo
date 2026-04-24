@@ -13,5 +13,9 @@ public class Controller {
     public String controller2(){
         return "Hello from controller2";
     }
+    @GetMapping("/controller3")
+	public String controller3() {
+		return "Hello from controller3";
+	}
 	
 }
